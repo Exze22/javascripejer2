@@ -20,7 +20,19 @@ veri(2);
 // Instrucción: Escribe una función que reciba una edad y determine si la persona es:
 // "Menor de edad" (menor a 18), "Adulto" (entre 18 y 65), o "Adulto mayor" (mayor a 65).
 function clasificarEdad(edad) {
-    // Tu código aquí
+function edad(anho) {
+    if (anho<18) {
+        console.log("Es menor de Edad");
+    }if (anho>=18 && anho<=65) {
+        console.log("Es Adulto");
+    }if (anho>65) {
+        console.log("Es Adulto Mayor");
+    }
+}
+edad(17);
+edad(25);
+edad(70);    
+// Tu código aquí
 }
 
 // Ejercicio 3: Bucles while
