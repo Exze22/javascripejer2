@@ -58,6 +58,14 @@ cuenta(25);
 // Instrucción: Escribe una función que imprima "Estoy aprendiendo JavaScript" 5 veces utilizando un bucle `do-while`.
 function repetirMensaje() {
     // Tu código aquí
+function repetir() {
+    let cont =0;
+    do {
+        console.log("Estoy Aprendiendo JavaScrip");
+    cont++;
+    } while (cont<5);
+}
+repetir();
 }
 
 // Ejercicio 5: Bucle for
