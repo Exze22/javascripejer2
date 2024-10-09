@@ -72,6 +72,12 @@ repetir();
 // Instrucción: Escribe una función que reciba un número entero positivo y utilice un bucle `for` para imprimir todos los números pares entre 0 y ese número.
 function imprimirPares(numero) {
     // Tu código aquí
+function numero(nro) {
+for (let  i= 0; i<= nro; i++) {
+  console.log(i);
+}
+  }
+numero(25);
 }
 
 // Ejercicio 6: Uso de break
