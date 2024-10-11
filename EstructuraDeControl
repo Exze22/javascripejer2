@@ -3,43 +3,39 @@
 // Ejercicio 1: Condicionales if-else
 // Instrucción: Escribe una función que reciba un número y verifique si es par o impar.
 // Imprime "El número es par" o "El número es impar" según corresponda.
-function verificarParidad(numero) {
-function veri(numero) {//inicio del codigo
+function verificarParidad(numero)  {//inicio del codigo
     if (numero % 2 === 0) {
         console.log ("El número es par");
     } else {
         console.log("El número es impar");
     }
-}
-veri(5);
-veri(2);   //fin del codigo 
+verificarParidad(5);
+verificarParidad(2);   //fin del codigo 
 // Tu código aquí
 }
 
 // Ejercicio 2: Condicionales anidados
 // Instrucción: Escribe una función que reciba una edad y determine si la persona es:
 // "Menor de edad" (menor a 18), "Adulto" (entre 18 y 65), o "Adulto mayor" (mayor a 65).
-function clasificarEdad(edad) {
-function edad(anho) {//inicio del codigo
-    if (anho<18) {
+function clasificarEdad(edad) {//inicio del codigo
+    if (edad<18) {
         console.log("Es menor de Edad");
-    }if (anho>=18 && anho<=65) {
+    }if (edad>=18 && anho<=65) {
         console.log("Es Adulto");
-    }if (anho>65) {
+    }if (edad>65) {
         console.log("Es Adulto Mayor");
     }
-}
-edad(17);
-edad(25);
-edad(70);  //fin del codigo  
+
+clasificarEdad(17);
+clasificarEdad(25);
+clasificarEdad(70);  //fin del codigo  
 // Tu código aquí
 }
 
 // Ejercicio 3: Bucles while
 // Instrucción: Crea una función que reciba un número entero positivo y utilice un bucle `while` para imprimir todos los números desde ese número hasta 0.
 function cuentaRegresiva(numero) {
-    // Tu código aquí
-function cuenta(numero) {//inicio del codigo
+    // Tu código aquí//inicio del codigo
     if (numero < 0) {
         console.log("Por favor, ingresa un número positivo.");
         return;
@@ -50,34 +46,33 @@ function cuenta(numero) {//inicio del codigo
         console.log(i);
         i--;
     }
-}
-cuenta(25);//fin del codigo
+
+cuentaRegresiva(25);//fin del codigo
 }
 
 // Ejercicio 4: Bucles do-while
 // Instrucción: Escribe una función que imprima "Estoy aprendiendo JavaScript" 5 veces utilizando un bucle `do-while`.
 function repetirMensaje() {
-    // Tu código aquí
-function repetir() {//inicio del codigo
+    // Tu código aquí//inicio del codigo
     let cont =0;
     do {
         console.log("Estoy Aprendiendo JavaScrip");
     cont++;
     } while (cont<5);
-}
-repetir();//fin del codigo
+
+repetirMensaje();//fin del codigo
 }
 
 // Ejercicio 5: Bucle for
 // Instrucción: Escribe una función que reciba un número entero positivo y utilice un bucle `for` para imprimir todos los números pares entre 0 y ese número.
 function imprimirPares(numero) {
     // Tu código aquí
-function numero(nro) {//inicio del codigo
-for (let  i= 0; i<= nro; i++) {
+//inicio del codigo
+for (let  i= 0; i<= numero; i++) {
   console.log(i);
 }
-  }
-numero(25);//fin del codigo
+  
+imprimirPares(25);//fin del codigo
 }
 
 // Ejercicio 6: Uso de break
