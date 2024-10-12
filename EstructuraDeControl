@@ -89,9 +89,9 @@ for (let i = 1; i < 10; i++) {//inicio del codigo
 
 // Ejercicio 7: Uso de continue
 // Instrucción: Crea una función que recorra los números del 1 al 10, pero que se salte el número 5 usando `continue`.
-function saltarCinco() {
+function saltarCinco() {//inicio del codigo
     // Tu código aquí
-for (let i = 1; i < 10; i++) {//inicio del codigo
+for (let i = 1; i < 10; i++) {
   if (i == 5) {
     continue;
   }
@@ -99,14 +99,14 @@ for (let i = 1; i < 10; i++) {//inicio del codigo
         break;
     }
     console.log(i);
-}//fin del codigo
 }
-
+}
+saltarCinco();//fin del codigo
 // Ejercicio 8: Switch básico
 // Instrucción: Escribe una función que reciba un número del 1 al 7 y devuelva el día de la semana correspondiente (1 es "Lunes", 2 es "Martes", ..., 7 es "Domingo"). Usa la estructura `switch`.
-function obtenerDiaSemana(dia) {
+function obtenerDiaSemana(dia) {//inicio del codigo
     // Tu código aquí
-const dia =6;// INICIO DEL CODIGO, aca podes realizar el cambio de los dias de la semana en numeros.
+
 switch (dia) {
   case 1:
     console.log("lunes");
@@ -132,14 +132,14 @@ switch (dia) {
   default:
     console.log("no hay mas dias");
     break;
-}//fin del codigo
 }
-
+}
+obtenerDiaSemana(2);//fin del codigo
 // Ejercicio 9: Switch con múltiples casos
 // Instrucción: Escribe una función que reciba un carácter y devuelva si es una vocal. Utiliza un `switch` y agrupa los casos para las vocales (a, e, i, o, u).
-function esVocal(letra) {
+function esVocal(letra) {//inicio del codigo
     // Tu código aquí
-function vocal(letra) {//inicio del codigo
+//inicio del codigo
         switch(letra){
             case 'a':
             case 'e':
@@ -152,14 +152,11 @@ function vocal(letra) {//inicio del codigo
                 break;
         }
 }
-vocal ('a'); //fin del codigo, dependiendo de que letra sea colocada dira si es vocal o no vocal
-}
-
+esVocal ('a'); //fin del codigo, dependiendo de que letra sea colocada dira si es vocal o no vocal
 // Ejercicio 10: Condicionales complejos con operadores lógicos
 // Instrucción: Escribe una función que reciba tres números y determine si todos son positivos, al menos uno es negativo, o todos son negativos. Usa operadores lógicos (`&&`, `||`).
-function evaluarNumeros(a, b, c) {
+function evaluarNumeros(a, b, c) {//inicio del codigo
     // Tu código aquí
-function evalu(a, b, c) {//inicio del codigo
     if (a > 0 && b > 0 && c > 0) {
         return "Todos son positivos.";
     } else if (a < 0 || b < 0 || c < 0) {
@@ -170,8 +167,8 @@ function evalu(a, b, c) {//inicio del codigo
         }
     } 
 }
-evalu(5, 3, 2);//fin del codigo, aca podes cambiar las variables de los nros. para poder acceder a los distintos resultados
-}
+evaluarNumeros(5, 3, 2);//fin del codigo, aca podes cambiar las variables de los nros. para poder acceder a los distintos resultados
+
 
 // Exportar todas las funciones
 export {
