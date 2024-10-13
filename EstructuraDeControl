@@ -25,10 +25,8 @@ function clasificarEdad(edad) {//inicio del codigo
     }if (edad>65) {
         console.log("Es Adulto Mayor");
     }
-
+}
 clasificarEdad(17);
-clasificarEdad(25);
-clasificarEdad(70);  //fin del codigo  
 // Tu código aquí
 }
 
@@ -46,9 +44,8 @@ function cuentaRegresiva(numero) {
         console.log(i);
         i--;
     }
-
-cuentaRegresiva(25);//fin del codigo
 }
+cuentaRegresiva(25);//fin del codigo}
 
 // Ejercicio 4: Bucles do-while
 // Instrucción: Escribe una función que imprima "Estoy aprendiendo JavaScript" 5 veces utilizando un bucle `do-while`.
@@ -59,10 +56,8 @@ function repetirMensaje() {
         console.log("Estoy Aprendiendo JavaScrip");
     cont++;
     } while (cont<5);
-
-repetirMensaje();//fin del codigo
 }
-
+repetirMensaje();//fin del codigo
 // Ejercicio 5: Bucle for
 // Instrucción: Escribe una función que reciba un número entero positivo y utilice un bucle `for` para imprimir todos los números pares entre 0 y ese número.
 function imprimirPares(numero) {
