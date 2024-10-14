@@ -9,10 +9,10 @@ function verificarParidad(numero)  {//inicio del codigo
     } else {
         console.log("El número es impar");
     }
-verificarParidad(5);
-verificarParidad(2);   //fin del codigo 
+   //fin del codigo 
 // Tu código aquí
 }
+verificarParidad(5);
 
 // Ejercicio 2: Condicionales anidados
 // Instrucción: Escribe una función que reciba una edad y determine si la persona es:
@@ -28,7 +28,7 @@ function clasificarEdad(edad) {//inicio del codigo
 }
 clasificarEdad(17);
 // Tu código aquí
-}
+
 
 // Ejercicio 3: Bucles while
 // Instrucción: Crea una función que reciba un número entero positivo y utilice un bucle `while` para imprimir todos los números desde ese número hasta 0.
